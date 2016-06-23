@@ -9,9 +9,8 @@
 </template>
 
 <script>
-// import app from './../globals'
-
 function noop () {}
+
 var data1 = {
   x: 0,
   y: 0,
@@ -20,15 +19,15 @@ var data1 = {
   stepX: 1,
   stepY: 1
 }
-// not boundable
+/*
+* type data= {x: number, y: number, w: number, h: number, stepX: number, stepY: number}
+*/
 export default {
   props: {
     data: {
       type: Object,
       default: data1
-    }, // {x,y}
-    // x: Number,
-    // y: Number,
+    },
     dragStart: {
       type: Function,
       default: noop
@@ -56,17 +55,14 @@ export default {
       initX: 0,
       initY: 0,
       state: 'rest',
-      movable: true,
       zi: 0
     }
   },
+  /*
+  * asd
+  */
   computed: {
     style () {
-      // this.x += this.deltaX
-      // this.deltaX = 0
-      // this.y += this.deltaY
-      // this.deltaY = 0
-
       return {
         left: this.data.x + 'px',
         top: this.data.y + 'px',
