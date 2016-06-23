@@ -1,4 +1,4 @@
-# vuex-test
+# vue-draggable
 
 > A Vue.js project
 
