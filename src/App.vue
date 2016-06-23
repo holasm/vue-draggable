@@ -8,13 +8,13 @@
         <h2>Title</h2>
       </div>
     </div>
-    <div slot='content' class="content">
+<!--     <div slot='content' class="content">
       lorem ipsum lorem ipsum lorem ipsum
       lorem ipsum lorem ipsum lorem ipsum
       lorem ipsum lorem ipsum lorem ipsum
       lorem ipsum lorem ipsum lorem ipsum
       lorem ipsum lorem ipsum lorem ipsum
-    </div>
+    </div> -->
   </draggable>
 </template>
 </div>
@@ -212,7 +212,7 @@ body {
   /* width: 200px; */
   width: 100%;
   height: 100%;
-  /* background: #aaa; */
+  background: #aaa;
   display: block;
   cursor: move;
 

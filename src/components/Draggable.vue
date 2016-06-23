@@ -166,14 +166,14 @@ export default {
     position: absolute;
     box-sizing: border-box;
     cursor: default;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* background: teal; */
   }
 .dragger-slot{
-  position: absolute;
+  position: relative;
   overflow: hidden;
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
 }
 /*   .rest{
     border: 1px solid teal;
